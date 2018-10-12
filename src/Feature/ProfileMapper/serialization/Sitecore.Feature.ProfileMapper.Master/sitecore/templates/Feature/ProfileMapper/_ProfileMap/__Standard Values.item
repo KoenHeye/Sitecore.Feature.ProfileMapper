@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {5911ED6B-5C2D-44A4-9F36-5C30A2D9B76C}
+database: master
+path: /sitecore/templates/Feature/ProfileMapper/_ProfileMap/__Standard Values
+parent: {BD16181E-5DFE-4389-AD05-1E766464BF62}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {BD16181E-5DFE-4389-AD05-1E766464BF62}
+templatekey: _ProfileMap
+created: 20170518T091235Z
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 1f81877e-d4f0-4476-a424-f2c3d4e57b4a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T091235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1f81877e-d4f0-4476-a424-f2c3d4e57b4a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170518T091345Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

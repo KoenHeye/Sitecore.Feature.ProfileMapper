@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {5978A9DB-D517-4AE8-B0A8-7114D4FD847C}
+database: master
+path: /sitecore/templates/Project/Common/Profile Mapping/Field Range Profile Map/__Standard Values
+parent: {E4C5499B-E6DE-41FB-BD5E-3D29074C858E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {E4C5499B-E6DE-41FB-BD5E-3D29074C858E}
+templatekey: Field Range Profile Map
+created: 20170518T142652Z
+
+----field----
+field: {805313FB-B5AB-4E1A-A25A-CCA592D83107}
+name: Min Value
+key: min value
+content-length: 1
+
+0
+----field----
+field: {5A174271-08F5-455F-8574-0BADE34FA0EE}
+name: Profile Map Assembly
+key: profile map assembly
+content-length: 30
+
+Sitecore.Feature.ProfileMapper
+----field----
+field: {688E394B-CD85-42A0-8658-869C6BD6F629}
+name: Profile Map Class
+key: profile map class
+content-length: 67
+
+Sitecore.Feature.ProfileMapper.Implementations.FieldRangeProfileMap
+----version----
+language: en
+version: 1
+revision: f7a57ed5-5b5d-4b4d-b943-1424113a6277
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T142652Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f7a57ed5-5b5d-4b4d-b943-1424113a6277
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180904T180543Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

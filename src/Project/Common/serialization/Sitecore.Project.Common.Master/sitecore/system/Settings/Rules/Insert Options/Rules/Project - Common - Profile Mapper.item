@@ -1,0 +1,104 @@
+----item----
+version: 1
+id: {DA03F814-786E-4753-AAE5-36368A8A4BE3}
+database: master
+path: /sitecore/system/Settings/Rules/Insert Options/Rules/Project - Common - Profile Mapper
+parent: {FF0BC016-2D01-4F55-A020-EF6FC2FE7559}
+name: Project - Common - Profile Mapper
+master: {00000000-0000-0000-0000-000000000000}
+template: {664E5035-EB8C-4BA1-9731-A098FCC9127A}
+templatekey: Insert Options Rule
+created: 20180904T173749Z
+
+----field----
+field: {FA307B86-DA2A-44BD-887D-E2057CDB4948}
+name: Rule
+key: rule
+content-length: 2368
+
+<ruleset>
+  <rule uid="{9EA5FB7B-0A17-49E4-9059-5480B43D86D3}" name="Default Folders">
+    <conditions>
+      <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="6F1E893DEDED4BC38CA9ED38FFB44B9B" templateid="{A5A9E239-BB8B-4979-B781-31FFAF3D4CD7}" />
+    </conditions>
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="ABC2CE6650BD4F43A69307465BB6F075" insertoptionid="{658E8001-E0EC-400A-9FED-1422B87BEFC4}" />
+    </actions>
+  </rule>
+  <rule uid="{4E65EE97-8564-428D-8DAE-90C275B7EF38}" name="Default Sites">
+    <conditions>
+      <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="A86B8EEE20AB4E8FB4173378C2F701DB" templateid="{658E8001-E0EC-400A-9FED-1422B87BEFC4}" />
+    </conditions>
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="FAFFD6D2C24A436EAF5AB3BF5D7516B3" insertoptionid="{F2D70F08-0204-4DEA-A8F2-A970C611DF6F}" />
+    </actions>
+  </rule>
+  <rule uid="{90D712DD-F301-497A-9608-26B2F8B01FF5}" name="Default Sets">
+    <conditions>
+      <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="073AD9E69793464F8A5FD9E16C712F40" templateid="{F2D70F08-0204-4DEA-A8F2-A970C611DF6F}" />
+    </conditions>
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="07BE816C998448D1A58B6E1990296ECE" insertoptionid="{7CD14503-88DA-49E5-B4B4-1D4764581A5D}" />
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="04A04350C9244E3A8665B5833C981FDA" insertoptionid="{CA909D53-36E9-4750-837E-7621131711BB}" />
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="4436D00981CD4CC08E5016DD1380ADA5" insertoptionid="{E4C5499B-E6DE-41FB-BD5E-3D29074C858E}" />
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="DF1C60FB027E405EB0D5B0892CE15F2F" insertoptionid="{DD5146B6-D8A7-487C-858F-CDCB91AC83D9}" />
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="FA429CCC901140F5897101CE82800424" insertoptionid="{3E3B3107-E4CB-4586-860D-388A481D9871}" />
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="13AA23E4461C428DA03C8D9520E850D1" insertoptionid="{1FC4467C-6B37-4238-97F4-EFB0DC4524D2}" />
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="AADC455800D54B9FB6FCDC54339D4536" insertoptionid="{275D272A-F0EA-4B87-AFEC-8A27BB0F09CC}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 17a6ec32-de6c-4fe5-86fa-b2361a5d1d6d
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 14
+
+Profile Mapper
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180904T173749Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+17a6ec32-de6c-4fe5-86fa-b2361a5d1d6d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181012T124353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
