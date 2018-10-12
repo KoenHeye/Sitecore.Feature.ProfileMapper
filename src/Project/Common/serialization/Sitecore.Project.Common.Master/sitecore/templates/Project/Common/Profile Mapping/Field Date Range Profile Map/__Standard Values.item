@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {A4C4DDA0-E927-45D8-A3B2-47A6C47D8467}
+database: master
+path: /sitecore/templates/Project/Common/Profile Mapping/Field Date Range Profile Map/__Standard Values
+parent: {275D272A-F0EA-4B87-AFEC-8A27BB0F09CC}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {275D272A-F0EA-4B87-AFEC-8A27BB0F09CC}
+templatekey: Field Date Range Profile Map
+created: 20180925T185602Z
+
+----field----
+field: {5A174271-08F5-455F-8574-0BADE34FA0EE}
+name: Profile Map Assembly
+key: profile map assembly
+content-length: 30
+
+Sitecore.Feature.ProfileMapper
+----field----
+field: {688E394B-CD85-42A0-8658-869C6BD6F629}
+name: Profile Map Class
+key: profile map class
+content-length: 71
+
+Sitecore.Feature.ProfileMapper.Implementations.FieldDateRangeProfileMap
+----version----
+language: en
+version: 1
+revision: c4b07306-d308-4d19-8b5b-090dc9f37125
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T142652Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c4b07306-d308-4d19-8b5b-090dc9f37125
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180925T185748Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

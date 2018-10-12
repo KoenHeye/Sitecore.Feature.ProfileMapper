@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {74AAC091-AA62-4A88-B215-488E7A8C15F5}
+database: master
+path: /sitecore/templates/Project/Common/Profile Mapping/Is Descendant Of Profile Map/__Standard Values
+parent: {7CD14503-88DA-49E5-B4B4-1D4764581A5D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {7CD14503-88DA-49E5-B4B4-1D4764581A5D}
+templatekey: Is Descendant Of Profile Map
+created: 20170518T131234Z
+
+----field----
+field: {5A174271-08F5-455F-8574-0BADE34FA0EE}
+name: Profile Map Assembly
+key: profile map assembly
+content-length: 30
+
+Sitecore.Feature.ProfileMapper
+----field----
+field: {688E394B-CD85-42A0-8658-869C6BD6F629}
+name: Profile Map Class
+key: profile map class
+content-length: 71
+
+Sitecore.Feature.ProfileMapper.Implementations.IsDescendantOfProfileMap
+----version----
+language: en
+version: 1
+revision: f764d1b3-55a8-4196-896c-4d40023b32f2
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170518T131235Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f764d1b3-55a8-4196-896c-4d40023b32f2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180904T180603Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
